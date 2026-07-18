@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Weather App</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="weather-card">
+
+        <div class="search-box">
+            <input type="text" placeholder="Enter city name">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="weather-info">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" class="weather-icon">
+
+            <h1>29°C</h1>
+            <h2>Ranchi</h2>
+            <p class="condition">Broken Clouds</p>
+
+            <div class="details">
+
+                <div class="detail-box">
+                    <i class="fa-solid fa-water"></i>
+                    <div>
+                        <p>Humidity</p>
+                        <h3>78%</h3>
+                    </div>
+                </div>
+
+                <div class="detail-box">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <p>Wind Speed</p>
+                        <h3>12 km/h</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
